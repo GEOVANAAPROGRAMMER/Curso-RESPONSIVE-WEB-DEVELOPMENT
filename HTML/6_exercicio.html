@@ -11,25 +11,15 @@
     <!-- Abre o formulário -->
     <form id="formulario" method="POST" action="processaForm.java">
 
-        <!-- O required obriga o preenchimento da caixa de entrada -->
-        <label for="nome">Nome Completo: </label>
-        <input type="text" id="nome" required><br>
-
-        <!-- Mudei o tipo de atributo para number para aceitar somente números -->
-        <label for="idade">Idade: </label>
-        <input type="number" id="idade"><br>
-
-        <!-- Mudei o tipo de atributo para email para o código identificar o que é um email -->
-        <label for="emailEnd">Email: </label>
-        <input type="email" id="emailEnd"><br>
-
-        <!-- Mudei o tipo de atributo para radio, isso permite que o usuário tenha um grupo de seleção o usuário deve selecionar apenas uma opção -->
-        <label for="newsletter">
-        <input type="radio" id="newsletter" value="Sim"> Sim
-        <input type="radio" id="newsletter" value="Não"> Não<br>
-
-        <!-- Botão para enviar a requisição -->
-        <input type="submit" value="Enviar">
+        <!-- Caixa de seleção -->
+        <label for="estcivil">Estado Civil: 
+            <select id="estcivil" name="estcivil">
+                <option values="S">Solteiro</option>
+                <option values="C">Casado</option>
+                <option values="V">Viuvo</option>
+                <option values="D">Divorciado</option>
+            </select>
+        </label>
 
     </form>
 </body>
