@@ -12,8 +12,10 @@
     <form id="formulario" method="POST" action="processaForm.php">
         <!-- Rótulo da info que será capturada -->
         <label for="nome">Nome Completo: </label>
-        <!-- Caixa onde a info que será capturada estará visível -->
-        <input type="text" id="nome" maxlength="80">
+
+        <!-- Fixa o texto no formulário e impede que seja modificado -->
+        <input type="text" id="nome" name="nome" value="João Ninguém" disabled>
+
     </form>
 </body>
 
