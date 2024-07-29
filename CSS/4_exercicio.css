@@ -11,4 +11,15 @@ h2{ color: green;}
 h3{ color: green;}
 
 
+/* Seletor de Elemento descendentes, primeiro devemos indicar o elemento pai e depois o elemento filho */
+div p{ color:red; }
+
+/* Seletor de Elemento para estilizar o primeiro decendente do elemento pai */
+div > span{ color: blue;}
+
+/* Seletor de Elemento para estilizar Adjacente */
+h5+h4{color:orange;}
+
+/* Seletor para estilizar o primeiro elemento h4 de seu tipo no documento */
+h4:first-of-type{ color:aqua;}
 
