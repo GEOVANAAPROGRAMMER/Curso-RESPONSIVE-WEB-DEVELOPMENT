@@ -1,0 +1,14 @@
+/* O asterisco é um seletor univesal '*'           */
+*{ font-family: arial;}
+
+
+/* Seletor de Elemento para estilizar separadamente */
+
+h1{ color: green;}
+
+h2{ color: green;}
+
+h3{ color: green;}
+
+
+
