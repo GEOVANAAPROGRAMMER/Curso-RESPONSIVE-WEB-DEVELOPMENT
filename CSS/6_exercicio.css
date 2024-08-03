@@ -1,0 +1,11 @@
+/* Utilizando um atributo sem especificar o valor */
+input[required]
+{
+    border-color:red;
+}
+
+/* Utilizando um atributo especificando o valor */
+input[type=number]
+{
+    background-color: lightpink;
+}
