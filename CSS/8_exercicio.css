@@ -1,0 +1,20 @@
+/* Define a codificação de caracteres do arquivo CSS. */
+@charset "UTF-8";
+
+/* Deve ser usado para importar arquivos CSS, não HTML. */
+@import url("../CSS/5_exercicio.css");
+
+div {
+    color: red;
+}
+
+p {
+    color: black;
+}
+
+/* Ajustar especificidade para garantir herança */
+#idParagrafo {
+    color: inherit;
+    color: inherit !important;
+    /* Força a herança */
+}
