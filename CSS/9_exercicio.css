@@ -1,0 +1,52 @@
+div#texto1 {
+    font-size: 20px;
+    /* Define o tamanho da fonte como 20 pixels */
+    background-color: rgb(255, 0, 0);
+    /* Define a cor de fundo como vermelho usando valores RGB */
+}
+
+div#texto2 {
+    font-size: 5mn;
+    /* Define o tamanho da fonte como 5 milímetros (unidade mn) */
+    background-color: #FF0;
+    /* Define a cor de fundo como amarelo usando notação hexadecimal curta */
+}
+
+div#texto3 {
+    font-size: 0.8em;
+    /* Define o tamanho da fonte como 0.8 vezes o tamanho da fonte do elemento pai */
+    background-color: #C0C0C0;
+    /* Define a cor de fundo como cinza claro usando notação hexadecimal */
+}
+
+div#texto4 {
+    font-size: 2vw;
+    /* Define o tamanho da fonte como 2% da largura da viewport (janela de visualização) */
+    background-color: hsl(120, 100%, 50%);
+    /* Define a cor de fundo como verde usando valores HSL (matiz, saturação e luminosidade) */
+}
+
+div#blue0 {
+    background-color: rgba(0, 0, 255, 0);
+    /* Define a cor de fundo como azul com 0% de opacidade (completamente transparente) */
+}
+
+div#blue2 {
+    background-color: rgba(0, 0, 255, 0.2);
+    /* Define a cor de fundo como azul com 20% de opacidade */
+}
+
+div#blue5 {
+    background-color: rgba(0, 0, 255, 0.5);
+    /* Define a cor de fundo como azul com 50% de opacidade */
+}
+
+div#blue7 {
+    background-color: rgba(0, 0, 255, 0.7);
+    /* Define a cor de fundo como azul com 70% de opacidade */
+}
+
+div#blue1 {
+    background-color: rgba(0, 0, 255, 1);
+    /* Define a cor de fundo como azul com 100% de opacidade (completamente opaco) */
+}
