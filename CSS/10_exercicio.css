@@ -1,0 +1,44 @@
+/* Define a fonte do parágrafo com a classe 'p1' como 'Monotype Corsiva' */
+.p1 {
+    font-family: "Monotype Corsiva";
+}
+
+/* Define o tamanho da fonte do parágrafo com a classe 'p2' para 2em (duas vezes o tamanho da fonte padrão) */
+.p2 {
+    font-size: 2em;
+}
+
+/* Define o estilo da fonte do parágrafo com a classe 'p3' como itálico */
+.p3 {
+    font-style: italic;
+}
+
+/* Define o peso da fonte do parágrafo com a classe 'p4' como negrito */
+.p4 {
+    font-weight: bold;
+}
+
+/* Centraliza o texto do parágrafo com a classe 'p5' */
+.p5 {
+    text-align: center;
+}
+
+/* Sublinhe o texto do parágrafo com a classe 'p6' */
+.p6 {
+    text-decoration: underline;
+}
+
+/* Indenta a primeira linha do parágrafo com a classe 'p7' em 50 pixels */
+.p7 {
+    text-indent: 50px;
+}
+
+/* Define o espaçamento entre as letras no parágrafo com a classe 'p8' para 15 pixels */
+.p8 {
+    letter-spacing: 15px;
+}
+
+/* Define o espaçamento entre as palavras no parágrafo com a classe 'p9' para 20 pixels */
+.p9 {
+    word-spacing: 20px;
+}
