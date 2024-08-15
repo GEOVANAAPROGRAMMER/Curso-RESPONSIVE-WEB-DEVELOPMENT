@@ -1,0 +1,25 @@
+@media screen {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(206, 0, 66);
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: rgb(66, 0, 206);
+    }
+}
+
+@media print {
+    body {
+        background-color: rgb(255, 255, 255);
+        color: blue;
+    }
+}
